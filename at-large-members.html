@@ -32,8 +32,8 @@
   .bubble-legend { display: flex; align-items: center; gap: 10px; }
   .bubble-sample { border-radius: 50%; background: #E15759; opacity: 0.65; display: inline-block; }
   .footnote { text-align: center; color: var(--subfg); font-size: 0.78rem; padding: 4px 12px 16px 12px; max-width: 900px; margin: 0 auto; }
-
-  /* Fit-to-frame: shrink the map so title, map, legend and footnote fit the window/iframe without scrolling */
+  /* Fit-to-frame: the map shrinks so the title, map, legend and footnote fit the
+     window or iframe without scrolling (needed for embedding on the website). */
   html, body { height: 100%; }
   body { display: flex; flex-direction: column; }
   h1, .legend, .footnote { flex: 0 0 auto; }
@@ -223,33 +223,38 @@
 <path d="M315.5,220.1 L317.1,219.8 L317.6,219.8 L317.5,221.9 L315.3,222.2 L314.8,222.0 L315.6,221.2 L315.5,220.1 Z" class="country"><title>Trinidad and Tobago</title></path>
 <path d="M562.2,240.3 L559.9,238.4 L559.2,237.2 L557.8,237.8 L556.5,237.6 L555.8,238.1 L554.6,237.8 L553.0,235.5 L552.6,234.6 L550.6,233.5 L549.9,231.8 L548.8,230.6 L547.0,229.2 L547.0,228.3 L545.5,227.1 L543.7,226.1 L544.5,225.8 L545.4,225.2 L546.1,222.7 L546.9,221.5 L548.8,221.1 L549.2,221.8 L550.6,223.5 L551.3,223.7 L552.3,223.2 L554.2,223.3 L554.6,223.9 L557.2,223.9 L557.3,223.3 L558.7,222.8 L559.0,222.0 L560.0,221.4 L562.2,223.0 L563.6,222.7 L564.9,220.7 L566.4,219.2 L566.2,217.6 L565.5,216.7 L567.1,216.6 L567.3,216.0 L568.6,216.2 L568.2,218.2 L568.6,220.2 L569.9,221.3 L570.2,222.3 L570.2,223.7 L570.6,223.7 L570.6,225.9 L570.2,226.7 L568.8,226.8 L567.9,228.4 L569.5,228.6 L570.9,229.9 L571.3,231.0 L572.6,231.7 L574.1,234.7 L572.3,236.5 L570.7,238.2 L569.0,239.5 L567.2,239.5 L565.0,240.1 L563.3,239.5 L562.2,240.3 Z" class="country"><title>S. Sudan</title></path>
 <circle cx="519.9" cy="116.9" r="5.8" class="member-bubble"><title>Austria: 3 members</title></circle>
-<circle cx="834.8" cy="319.0" r="7.3" class="member-bubble"><title>Australia: 7 members</title></circle>
-<circle cx="347.4" cy="289.1" r="4.6" class="member-bubble"><title>Brazil: 1 member</title></circle>
-<circle cx="186.0" cy="92.5" r="12.0" class="member-bubble"><title>Canada: 30 members</title></circle>
-<circle cx="502.1" cy="120.0" r="6.3" class="member-bubble"><title>Switzerland: 4 members</title></circle>
-<circle cx="743.4" cy="147.8" r="7.3" class="member-bubble"><title>China: 7 members</title></circle>
+<circle cx="834.8" cy="319.0" r="7.2" class="member-bubble"><title>Australia: 7 members</title></circle>
+<circle cx="347.4" cy="289.1" r="5.2" class="member-bubble"><title>Brazil: 2 members</title></circle>
+<circle cx="186.0" cy="92.5" r="12.0" class="member-bubble"><title>Canada: 32 members</title></circle>
+<circle cx="502.1" cy="120.0" r="6.2" class="member-bubble"><title>Switzerland: 4 members</title></circle>
+<circle cx="743.4" cy="147.8" r="7.8" class="member-bubble"><title>China: 9 members</title></circle>
 <circle cx="256.8" cy="223.0" r="4.6" class="member-bubble"><title>Costa Rica: 1 member</title></circle>
-<circle cx="507.8" cy="107.1" r="7.0" class="member-bubble"><title>Germany: 6 members</title></circle>
-<circle cx="505.2" cy="93.5" r="5.3" class="member-bubble"><title>Denmark: 2 members</title></circle>
+<circle cx="507.8" cy="107.1" r="6.9" class="member-bubble"><title>Germany: 6 members</title></circle>
+<circle cx="505.2" cy="93.5" r="5.2" class="member-bubble"><title>Denmark: 2 members</title></circle>
 <circle cx="271.3" cy="254.9" r="4.6" class="member-bubble"><title>Ecuador: 1 member</title></circle>
 <circle cx="470.6" cy="139.1" r="5.8" class="member-bubble"><title>Spain: 3 members</title></circle>
-<circle cx="475.3" cy="99.4" r="6.3" class="member-bubble"><title>United Kingdom: 4 members</title></circle>
-<circle cx="477.1" cy="228.3" r="4.6" class="member-bubble"><title>Ghana: 1 member</title></circle>
-<circle cx="538.2" cy="141.4" r="5.3" class="member-bubble"><title>Greece: 2 members</title></circle>
+<circle cx="475.3" cy="99.4" r="6.2" class="member-bubble"><title>United Kingdom: 4 members</title></circle>
+<circle cx="477.1" cy="228.3" r="6.2" class="member-bubble"><title>Ghana: 4 members</title></circle>
+<circle cx="538.2" cy="141.4" r="5.2" class="member-bubble"><title>Greece: 2 members</title></circle>
+<circle cx="782.1" cy="250.5" r="4.6" class="member-bubble"><title>Indonesia: 1 member</title></circle>
 <circle cx="459.2" cy="101.4" r="4.6" class="member-bubble"><title>Ireland: 1 member</title></circle>
 <circle cx="572.5" cy="162.7" r="4.6" class="member-bubble"><title>Israel: 1 member</title></circle>
-<circle cx="691.1" cy="189.2" r="5.3" class="member-bubble"><title>India: 2 members</title></circle>
+<circle cx="691.1" cy="189.2" r="5.2" class="member-bubble"><title>India: 2 members</title></circle>
+<circle cx="624.3" cy="160.2" r="4.6" class="member-bubble"><title>Iran: 1 member</title></circle>
 <circle cx="513.7" cy="131.8" r="4.6" class="member-bubble"><title>Italy: 1 member</title></circle>
-<circle cx="848.9" cy="149.7" r="8.2" class="member-bubble"><title>Japan: 10 members</title></circle>
-<circle cx="821.1" cy="149.4" r="5.3" class="member-bubble"><title>South Korea: 2 members</title></circle>
+<circle cx="848.9" cy="149.7" r="8.0" class="member-bubble"><title>Japan: 10 members</title></circle>
+<circle cx="821.1" cy="149.4" r="5.2" class="member-bubble"><title>South Korea: 2 members</title></circle>
+<circle cx="695.2" cy="228.2" r="4.6" class="member-bubble"><title>Sri Lanka: 1 member</title></circle>
 <circle cx="207.3" cy="184.4" r="4.6" class="member-bubble"><title>Mexico: 1 member</title></circle>
-<circle cx="494.4" cy="105.4" r="5.3" class="member-bubble"><title>Netherlands: 2 members</title></circle>
+<circle cx="494.4" cy="105.4" r="5.2" class="member-bubble"><title>Netherlands: 2 members</title></circle>
 <circle cx="540.5" cy="27.9" r="4.6" class="member-bubble"><title>Norway: 1 member</title></circle>
 <circle cx="702.5" cy="171.4" r="4.6" class="member-bubble"><title>Nepal: 1 member</title></circle>
-<circle cx="530.9" cy="105.9" r="4.6" class="member-bubble"><title>Poland: 1 member</title></circle>
+<circle cx="530.9" cy="105.9" r="5.2" class="member-bubble"><title>Poland: 2 members</title></circle>
 <circle cx="544.6" cy="122.1" r="4.6" class="member-bubble"><title>Romania: 1 member</title></circle>
+<circle cx="716.3" cy="85.0" r="4.6" class="member-bubble"><title>Russia: 1 member</title></circle>
 <circle cx="519.4" cy="77.0" r="4.6" class="member-bubble"><title>Sweden: 1 member</title></circle>
 <circle cx="440.7" cy="209.7" r="4.6" class="member-bubble"><title>Senegal: 1 member</title></circle>
+<circle cx="574.5" cy="142.7" r="4.6" class="member-bubble"><title>Turkey: 1 member</title></circle>
 <circle cx="316.6" cy="220.7" r="4.6" class="member-bubble"><title>Trinidad and Tobago: 1 member</title></circle>
 <circle cx="802.6" cy="183.4" r="4.6" class="member-bubble"><title>Taiwan: 1 member</title></circle>
 <circle cx="549.7" cy="328.9" r="4.6" class="member-bubble"><title>South Africa: 1 member</title></circle>
@@ -258,9 +263,9 @@
 <div class="legend">
   <div class="bubble-legend"><span class="bubble-sample" style="width:6px;height:6px;"></span>1 member</div>
   <div class="bubble-legend"><span class="bubble-sample" style="width:14px;height:14px;"></span>10 members</div>
-  <div class="bubble-legend"><span class="bubble-sample" style="width:24px;height:24px;"></span>30 members</div>
+  <div class="bubble-legend"><span class="bubble-sample" style="width:24px;height:24px;"></span>32 members</div>
 </div>
-<div class="footnote">101 of 101 At Large (non-US) current members across 31 countries. Each circle is centered on a country and sized by member count, not placed at individual addresses, since only country-level location is available for these members. 1 At Large member with a military (APO/FPO) address is counted in the At Large report but not shown, since military mail has no country. Hover a circle or country for details. Scroll to zoom, drag to pan once zoomed in, and double-click to reset the view.</div>
+<div class="footnote">115 of 115 At Large (non-US) current members across 36 countries. Each circle is centered on a country and sized by member count, not placed at individual addresses, since only country-level location is available for these members. 1 At Large member with a military (APO/FPO) address is counted in the At Large report but not shown, since military mail has no country. Hover a circle or country for details. Scroll to zoom, drag to pan once zoomed in, and double-click to reset the view.</div>
 <script>
 (function() {
   var svg = document.querySelector('.map-wrap svg');
